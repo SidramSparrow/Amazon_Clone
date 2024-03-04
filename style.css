@@ -1,0 +1,498 @@
+@media (max-width: 700px){
+    body{
+        overflow: hidden;
+    }
+    .collapse{
+        width: 370px;
+        top: 0;
+        left: 0;
+        height: 50vh;
+        position: fixed;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.356);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .collapse-container{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 2%;
+    }
+    .collapse-container .btn:nth-child(1){
+        width: 100%;
+    }
+    #close{
+        position: fixed;
+        right: 50px;
+        top: 50px;
+        z-index: 2;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .searchBar{
+        display: none;
+    }
+    .fa-shopping-bag{
+        font-size: 40px;
+    }
+    .count{
+        position: absolute;
+        padding: 20px 2px 2px 30px;
+        color: rgb(238, 167, 14);
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .nav{
+        display: flex;
+        width: 100%;
+    }
+    .navbar-brand{
+        width: 80px;
+        filter: invert();
+    }
+    .container-item-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 200px;
+        
+    }
+    .nav-para{
+        font-size: 12px;
+        position: absolute;
+        right: 10px;
+        color: white;
+        padding-top: 10px;
+    }
+    .section-1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .container-card{
+        background-color: white;
+        box-shadow: 0px 0px 15px white;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        margin: 20px;
+        padding-right: 40px;
+    }
+    .container-card h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .container-card img{
+        width: 100%;
+        height: 50%;
+    }
+    .section-2{
+        display: block;
+        width: 100%;
+    }
+    .embed-responsive-item{
+        width: 100%;
+        height: 100%;
+    }
+    .embed-responsive{
+        width: 100%;
+        height: 100%;
+    }
+    .imageTag{
+        width: 100%;
+    }
+    .imgTag{
+        width: 100%;
+        height: 100%;
+        padding: 15px 0px;
+    }
+    .caption-top{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.575);
+        color: white;
+        width: 100%;
+        height: 40px;
+        margin: 15px 4px;
+        padding: 5px;
+    }
+    .caption-bottom{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.575);
+        color: white;
+        width: 47%;
+        margin: 15px 4px;
+        padding: 5px;
+    }
+    .main{
+        background-color: rgba(19, 17, 17, 0.11);
+    }
+    .section-3 .container-item{
+        margin: 100px 0px;
+        overflow: hidden;
+    }
+    .section-3 .card-columns{
+        display: inline-flex;
+        padding: 20px 20px;
+        overflow: hidden;
+        height: 60vh;
+        background-color: white;
+        margin: 20px 0px;
+        
+    }
+    .section-3 .card-columns .card{
+        box-shadow: 2px 2px 10px black;
+        width: 240px;
+        height: 380px;
+        padding: 20px;
+    }
+    .section-3 .card-columns .card img{
+        width: 100%;
+        height: 230px;
+        box-shadow: 0px 0px 5px black;
+        padding: 2px;
+    }
+    .left{
+        background-color: rgb(236, 236, 236);
+        color: black;
+        position: absolute;
+        width: 50px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 20px;
+        box-shadow: 2px 2px 10px black;
+    }
+    .right{
+        background-color: rgb(236, 236, 236);
+        color: black;
+        position: absolute;
+        width: 50px;
+        height: 150px;
+        display: flex;
+        left: 1250px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        box-shadow: 2px 2px 10px black;
+    }
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-link{
+        display: block;
+        width: 100%;
+        padding: 50px;
+    }
+    .footer-link a{
+        text-decoration: none;
+        color: white; 
+        font-size: 18px;
+    }
+    .footer-link a:hover{
+        color: rgb(133, 132, 132);
+        transition: 0.5s;
+    }
+    footer{
+        background-color: rgb(36, 44, 59);
+    }
+    footer h2{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding-bottom: 20px;
+    }
+    .back-to-top{
+        background-color: rgb(61, 74, 100);
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 0px;
+        width: 100%;
+    }
+    
+    select option{
+        padding: 5px 10px;
+        
+    }
+    
+    .topDown{
+        justify-content: center;
+        gap: 70px;
+        padding: 10px;
+    }
+    .downfooter .links {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 50px;
+    }
+    .downfooter .links a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    .downfooter .links a:hover{
+        color: rgb(199, 199, 199);
+        transition: 1s;
+    }
+}
+@media (min-width: 700px) {
+    .container-item{
+        width: 50%;
+    }
+    .imageTag{
+        width: 50%;
+    }
+    .hideall{
+        display: none;
+    }
+    .collapse{
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        position: fixed;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.356);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .collapse-container{
+        width: 40%;
+        height: 300px;
+        padding: 0px 20px;
+        background-color: white;
+        border-radius: 2%;
+    }
+    #close{
+        position: fixed;
+        right: 50px;
+        top: 50px;
+        z-index: 2;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .searchBar{
+        padding-top: 4%;
+    }
+    .fa-shopping-bag{
+        font-size: 40px;
+    }
+    .count{
+        position: absolute;
+        padding: 20px 2px 2px 30px;
+        color: rgb(238, 167, 14);
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .nav{
+        display: flex;
+        width: 100%;
+    }
+    .navbar-brand{
+        width: 80px;
+        filter: invert();
+    }
+    .container-item-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 200px;
+        
+    }
+    .nav-para{
+        font-size: 12px;
+        position: absolute;
+        right: 10px;
+        color: white;
+        padding-top: 10px;
+    }
+    .section-1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 0px 30px;
+        background-color: transparent;
+        position: absolute;
+        top: 60vh;
+        height: 60vh;
+    }
+    .container-card{
+        background-color: white;
+        box-shadow: 0px 0px 15px white;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        padding: 10px;
+    
+    }
+    .container-card h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .container-card img{
+        width: 100%;
+        height: 50%;
+    }
+    .section-2{
+        margin-top: 30vh;
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+    .embed-responsive-item{
+        width: 100%;
+        height: 100%;
+    }
+    .embed-responsive{
+        width: 100%;
+        height: 100%;
+    }
+    .imgTag{
+        width: 100%;
+        height: 100%;
+        padding: 15px 0px;
+    }
+    .caption-top{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.575);
+        color: white;
+        width: 47%;
+        margin: 15px 4px;
+        padding: 5px;
+    }
+    .caption-bottom{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.575);
+        color: white;
+        width: 47%;
+        margin: 15px 4px;
+        padding: 5px;
+    }
+    .main{
+        background-color: rgba(19, 17, 17, 0.11);
+    }
+    
+    .section-2 .container-item{
+        gap: 20px;
+    }
+    .section-3 .container-item{
+        margin: 100px 0px;
+        overflow: hidden;
+    }
+    .section-3 .card-columns{
+        display: inline-flex;
+        padding: 20px 20px;
+        overflow: hidden;
+        height: 60vh;
+        background-color: white;
+        margin: 20px 0px;
+        
+    }
+    .section-3 .card-columns .card{
+        box-shadow: 2px 2px 10px black;
+        width: 240px;
+        height: 380px;
+        padding: 20px;
+    }
+    .section-3 .card-columns .card img{
+        width: 100%;
+        height: 230px;
+        box-shadow: 0px 0px 5px black;
+        padding: 2px;
+    }
+    .left{
+        background-color: rgb(236, 236, 236);
+        color: black;
+        position: absolute;
+        width: 50px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 20px;
+        box-shadow: 2px 2px 10px black;
+    }
+    .right{
+        background-color: rgb(236, 236, 236);
+        color: black;
+        position: absolute;
+        width: 50px;
+        height: 150px;
+        display: flex;
+        left: 1250px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        box-shadow: 2px 2px 10px black;
+    }
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-link{
+        display: block;
+        width: 100%;
+        padding: 50px;
+    }
+    .footer-link a{
+        text-decoration: none;
+        color: white; 
+        font-size: 18px;
+    }
+    .footer-link a:hover{
+        color: rgb(133, 132, 132);
+        transition: 0.5s;
+    }
+    footer{
+        background-color: rgb(36, 44, 59);
+    }
+    footer h2{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding-bottom: 20px;
+    }
+    .back-to-top{
+        background-color: rgb(61, 74, 100);
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 0px;
+        width: 100%;
+    }
+    
+    select option{
+        padding: 5px 10px;
+        
+    }
+    
+    .topDown{
+        justify-content: center;
+        gap: 70px;
+        padding: 10px;
+    }
+    .downfooter .links {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 50px;
+    }
+    .downfooter .links a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    .downfooter .links a:hover{
+        color: rgb(199, 199, 199);
+        transition: 1s;
+    }
+}
